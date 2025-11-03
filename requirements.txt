@@ -4,3 +4,5 @@
 #
 #    pip-compile
 #
+genson==1.3.0
+    # via -r requirements.in
