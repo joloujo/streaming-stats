@@ -4,5 +4,29 @@
 #
 #    pip-compile
 #
+anyio==4.11.0
+    # via httpx
+certifi==2025.10.5
+    # via
+    #   httpcore
+    #   httpx
 genson==1.3.0
     # via -r requirements.in
+h11==0.16.0
+    # via httpcore
+httpcore==1.0.9
+    # via httpx
+httpx==0.28.1
+    # via pylast
+idna==3.11
+    # via
+    #   anyio
+    #   httpx
+pylast==6.0.0
+    # via -r requirements.in
+python-dotenv==1.2.1
+    # via -r requirements.in
+sniffio==1.3.1
+    # via anyio
+typing-extensions==4.15.0
+    # via anyio

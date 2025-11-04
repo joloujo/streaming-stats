@@ -9,4 +9,7 @@ scrobbles_dict: ScrobblesJSON = json.load(scrobbles_file)
 
 scrobbles: list[Scrobble] = [scrobble for page in scrobbles_dict for scrobble in page]
 
-print(len(scrobbles))
+for scrobble in scrobbles:
+    if scrobble['name'] == 'Change':
+        print(json.dumps(scrobble, indent=2))
+        break
