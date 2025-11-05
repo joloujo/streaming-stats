@@ -54,8 +54,12 @@ matplotlib-inline==0.2.1
     #   ipython
 nest-asyncio==1.6.0
     # via ipykernel
+numpy==2.3.4
+    # via pandas
 packaging==25.0
     # via ipykernel
+pandas==2.3.3
+    # via -r requirements.in
 parso==0.8.5
     # via jedi
 platformdirs==4.5.0
@@ -73,11 +77,15 @@ pygments==2.19.2
 pylast==6.0.0
     # via -r requirements.in
 python-dateutil==2.9.0.post0
-    # via jupyter-client
+    # via
+    #   jupyter-client
+    #   pandas
 python-dotenv==1.2.1
     # via -r requirements.in
 pytz==2025.2
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   pandas
 pyzmq==27.1.0
     # via
     #   ipykernel
@@ -101,5 +109,7 @@ traitlets==5.14.3
     #   matplotlib-inline
 typing-extensions==4.15.0
     # via anyio
+tzdata==2025.2
+    # via pandas
 wcwidth==0.2.14
     # via prompt-toolkit
