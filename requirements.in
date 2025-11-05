@@ -1,3 +1,5 @@
-python-dotenv
+ipykernel
 genson
 pylast
+python-dotenv
+pytz
