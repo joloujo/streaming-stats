@@ -1,6 +1,8 @@
 ipykernel
 genson
+matplotlib
 pandas
 pylast
 python-dotenv
 pytz
+seaborn
